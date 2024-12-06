@@ -37,7 +37,7 @@ section.game-view {
   main {
     padding-top: calc(max(60px, 10vh));
   }
-} 
+}
 
 @media only screen and (max-width: 500px) {
   main {

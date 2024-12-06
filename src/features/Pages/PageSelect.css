@@ -1,41 +1,41 @@
 .page-select {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    padding: 1rem;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1rem;
 }
 
 .page-select,
 .page-select button {
-    font-size: 1.2rem;
+  font-size: 1.2rem;
 }
 
 .page-select button {
-    padding: 0.5rem;
-    margin: 0.5rem;
-    background-color: gainsboro;
-    border: 1px solid #ccc;
-    border-radius: 5px;
+  padding: 0.5rem;
+  margin: 0.5rem;
+  background-color: gainsboro;
+  border: 1px solid #ccc;
+  border-radius: 5px;
 }
 
 .page-select button:hover {
-    text-decoration: underline;
-    cursor: pointer;
+  text-decoration: underline;
+  cursor: pointer;
 }
 
 .page-select span {
-    padding: 0.5rem;
-    margin: 0.5rem;
-    font-style: italic;
-    text-transform: uppercase;
-    font-weight: 600;
+  padding: 0.5rem;
+  margin: 0.5rem;
+  font-style: italic;
+  text-transform: uppercase;
+  font-weight: 600;
 }
 
 @media only screen and (max-width: 500px) {
-    .page-select,
-    .page-select button {
-        font-size: 0.8rem;
-    }
+  .page-select,
+  .page-select button {
+    font-size: 0.8rem;
+  }
 }

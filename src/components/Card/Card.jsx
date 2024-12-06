@@ -1,16 +1,14 @@
-import PropTypes from 'prop-types';
-import './Card.css';
+import PropTypes from "prop-types";
+import "./Card.css";
 
 export const Card = ({ children }) => {
-    return (
-        <div 
-        className='card'
-        >
-            {children}
-        </div>
-    )
-}
+  return (
+    <div className="card">
+      {children}
+    </div>
+  );
+};
 
 Card.propTypes = {
-    children: PropTypes.node.isRequired
-}
+  children: PropTypes.node.isRequired,
+};

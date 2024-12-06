@@ -1,9 +1,8 @@
-import './Loading.css'
+import "./Loading.css";
 
 export const Loading = () => {
-    return (
-        <div className='loading' data-testid="loading">
-            
-        </div>
-    )
-}
+  return (
+    <div className="loading" data-testid="loading">
+    </div>
+  );
+};

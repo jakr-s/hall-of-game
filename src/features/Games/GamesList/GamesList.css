@@ -1,26 +1,26 @@
 .games-list-container {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
 }
 
 .games-list {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    padding: 1rem;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 1rem;
 }
 
 .error-header {
-    text-align: center;
-    font-weight: 600;
-    color: red;
-    padding: 2rem;
-    background-color: gainsboro;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    margin: 2rem;
-    text-transform: uppercase;
+  text-align: center;
+  font-weight: 600;
+  color: red;
+  padding: 2rem;
+  background-color: gainsboro;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 2rem;
+  text-transform: uppercase;
 }

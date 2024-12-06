@@ -1,71 +1,73 @@
 .game {
-    font-family: 'Gill Sans', 'Montserrat';
+  font-family: "Gill Sans", "Montserrat";
 }
 
 .game-image-container {
-    width: 100%;
-    height: 180px; /* Adjust this to your desired height */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden; /* Ensure no overflow */
-    background-color: darkgray; /* Optional: gives a background if the image doesn't cover */
-    border-radius: 8px;
-    padding: 0.5em;
-    margin-top: 2em;
+  width: 100%;
+  height: 180px; /* Adjust this to your desired height */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden; /* Ensure no overflow */
+  background-color: darkgray; /* Optional: gives a background if the image doesn't cover */
+  border-radius: 8px;
+  padding: 0.5em;
+  margin-top: 2em;
 }
 
 .game-cover {
-    width: 90%;
-    height: 90%;
-    object-fit: cover; /* Ensure it covers the container uniformly */
-    transition: filter 0.3s ease;
+  width: 90%;
+  height: 90%;
+  object-fit: cover; /* Ensure it covers the container uniformly */
+  transition: filter 0.3s ease;
 }
 
 .game-cover:hover {
-    filter: grayscale(100%) brightness(0.8) sepia(1) hue-rotate(90deg) contrast(2);
-    transition: filter 0.3s ease; /* Smooth transition */
+  filter: grayscale(100%) brightness(0.8) sepia(1) hue-rotate(90deg) contrast(
+    2
+  );
+  transition: filter 0.3s ease; /* Smooth transition */
 }
 
 .game-name {
-    font-size: 1rem;
-    font-style: italic;
-    font-weight: 600;
-    text-transform: uppercase;
-    white-space: pre-wrap;
-    word-wrap: break-word;
+  font-size: 1rem;
+  font-style: italic;
+  font-weight: 600;
+  text-transform: uppercase;
+  white-space: pre-wrap;
+  word-wrap: break-word;
 }
 
 .game-name a {
-    color: black;
+  color: black;
 }
 
 .game-name a:hover {
-    /* font-style: normal; */
-    color: blue ! important;
+  /* font-style: normal; */
+  color: blue !important;
 }
 
 .game-name a:visited {
-    color: black;
+  color: black;
 }
 
 .game-name,
 .middle-row,
 .game-platforms {
-    padding: 0.5em 0;
+  padding: 0.5em 0;
 }
 
 .middle-row {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .middle-row a:hover {
-    color: red;
+  color: red;
 }
 
 .game-platforms {
-    margin-bottom: 1rem;
+  margin-bottom: 1rem;
 }

@@ -1,22 +1,22 @@
 .platform-icon {
-    font-size: 1.6em;
-    padding: 0;
-    margin: 0;
-    display: inline-block; /* Ensures it behaves like a block but fits its content */
-    width: 1.6em; /* Adjust this size to match initial font-size */
-    height: 1.6em;
-    text-align: center; /* Centers the icon if needed */
-    transition: transform 0.3s ease; /* Smooth scaling */
+  font-size: 1.6em;
+  padding: 0;
+  margin: 0;
+  display: inline-block; /* Ensures it behaves like a block but fits its content */
+  width: 1.6em; /* Adjust this size to match initial font-size */
+  height: 1.6em;
+  text-align: center; /* Centers the icon if needed */
+  transition: transform 0.3s ease; /* Smooth scaling */
 }
 
 .platform-icon a {
-    display: flex; /* Centers icon both vertically and horizontally */
-    align-items: center;
-    justify-content: center;
-    width: 100%; /* Ensure link fills container */
-    height: 100%;
+  display: flex; /* Centers icon both vertically and horizontally */
+  align-items: center;
+  justify-content: center;
+  width: 100%; /* Ensure link fills container */
+  height: 100%;
 }
 
 .platform-icon a:hover {
-    transform: scale(2); /* Grows without affecting layout */
+  transform: scale(2); /* Grows without affecting layout */
 }

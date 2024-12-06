@@ -1,161 +1,157 @@
 .game-details {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    font-size: 1.2rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  font-size: 1.2rem;
 }
 
 .game-details h4 {
-    white-space: nowrap;
+  white-space: nowrap;
 }
 
 .game-header {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    gap: 0.5rem;
-    padding: 1rem;
-    margin-bottom: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 0.5rem;
+  padding: 1rem;
+  margin-bottom: 0;
 }
 
 .game-header,
 .game-banner {
-    background-color: gainsboro;
+  background-color: gainsboro;
 }
 
 .title {
-    font-size: 2rem;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
-    font-weight: 600;
-    text-transform: uppercase;
+  font-size: 2rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+  font-weight: 600;
+  text-transform: uppercase;
 }
 
 .links {
-    display: flex;
-    gap: 1rem;
-    margin-bottom: 1rem;
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
 }
 
 .links a {
-    color: black;
-    text-decoration: none;
+  color: black;
+  text-decoration: none;
 }
 
 .links a:hover {
-    color: blue;
-    text-decoration: none;
+  color: blue;
+  text-decoration: none;
 }
 
 .game-banner {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    padding-bottom: 1rem;
-    height: 12.5rem;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-bottom: 1rem;
+  height: 12.5rem;
 }
 
 .game-banner,
 .game-info-container {
-    border-bottom: 1px solid black;
+  border-bottom: 1px solid black;
 }
 
 .game-box-art,
 .game-screenshot {
-    width: auto;
-    height: 100%;
-    object-fit: cover;
+  width: auto;
+  height: 100%;
+  object-fit: cover;
 }
 
 .game-info-container {
-    width: 100%;
-    text-align: start;
-    background-color: darkgray;
-    display: flex;
-    justify-content: space-between;
-    align-items: start;
+  width: 100%;
+  text-align: start;
+  background-color: darkgray;
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
 }
 
 .game-info-container,
 .game-description {
-    padding: 1rem 4rem;
+  padding: 1rem 4rem;
 }
 
 .game-info {
-    flex: 2;
-    display: block;
-    text-align: left;
-    padding-right: 1rem;
+  flex: 2;
+  display: block;
+  text-align: left;
+  padding-right: 1rem;
 }
 
 .game-info a,
 .game-aside a {
-    color: black;
-    text-decoration: none;
+  color: black;
+  text-decoration: none;
 }
 
 .game-info a:hover,
 .game-aside a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 .game-info span {
-    display: inline-block;
-    margin-bottom: 1rem;
+  display: inline-block;
+  margin-bottom: 1rem;
 }
 
 .game-aside {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    font-size: 1.2rem;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-size: 1.2rem;
 }
 
 .game-description {
-    text-align: start;
-    background-color: gainsboro;
-    padding: 1rem 4rem;
+  text-align: start;
+  background-color: gainsboro;
+  padding: 1rem 4rem;
 }
 
 .game-description p {
-    line-height: 1.5;
+  line-height: 1.5;
 }
 
 @media only screen and (max-width: 800px) {
+  .game-screenshot {
+    display: none;
+  }
 
-    .game-screenshot {
-        display: none;
-    }
-
-    .game-info-container,
-    .game-description {
-        padding: 1rem 2rem;
-    }
-
+  .game-info-container,
+  .game-description {
+    padding: 1rem 2rem;
+  }
 }
 
 @media only screen and (max-width: 500px) {
+  .game-header,
+  .game-details h4,
+  .game-info span,
+  .game-info a,
+  .game-info p,
+  .game-description p,
+  .game-aside h4,
+  .game-aside span,
+  .game-aside p,
+  .game-aside a,
+  .rawg-logo {
+    font-size: 0.8rem;
+  }
 
-    .game-header,
-    .game-details h4,
-    .game-info span,
-    .game-info a,
-    .game-info p,
-    .game-description p,
-    .game-aside h4,
-    .game-aside span,
-    .game-aside p,
-    .game-aside a,
-    .rawg-logo {
-        font-size: 0.8rem;
-    }
-
-    .title {
-        font-size: 1rem;
-    }
-
+  .title {
+    font-size: 1rem;
+  }
 }
